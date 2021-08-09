@@ -135,7 +135,7 @@ note: currently, `glyph_id` is set to `NULL` in the script, which is problematic
 
 #### marker_remover.py
 
-`marker_remover.py` is an experimental script to remove markers. it uses the template marker as a "blueprint" by which it tries to remove existing markers. it figures out how amny pixels there are in each row of the template. it then tries to use that as an input to figure out how many pixels to remove from that particular row of the actual image. this is experimental and pretty dangerous, since it can eat pieces of touching ayahs, especially when things are really close together. really recommend using a tool like [kaleidoscope](https://www.kaleidoscopeapp.com) to overlay the image without the ayahs on top of the ones with the ayahs and see that nothing extra is cut out, etc. configure its values at the top of the script.
+`marker_remover.py` is an experimental script to remove markers. it uses the template marker as a "blueprint" by which it tries to remove existing markers. it figures out how many pixels there are in each row of the template. it then tries to use that as an input to figure out how many pixels to remove from that particular row of the actual image. this is experimental and pretty dangerous, since it can eat pieces of touching ayahs, especially when things are really close together. really recommend using a tool like [kaleidoscope](https://www.kaleidoscopeapp.com) to overlay the image without the ayahs on top of the ones with the ayahs and see that nothing extra is cut out, etc. configure its values at the top of the script.
 
 
 #### header_remover.py
